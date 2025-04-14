@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroNet - Where Intelligence Connects</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="neural-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">NeuroNet</span>
+                <div class="neural-pulse"></div>
+            </div>
+            <div class="nav-links">
+                <a href="#how-it-works">How It Works</a>
+                <a href="#visual-insight">Visual Insight</a>
+                <a href="#features">Features</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#join" class="cta-nav">Join Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="neural-network" id="neural-network"></div>
+        <div class="hero-content">
+            <h1 class="glow-text">Welcome to NeuroNet</h1>
+            <h2 class="subtitle">Where Intelligence Connects</h2>
+            <button class="cta-button">
+                <span class="button-text">Get Started</span>
+                <div class="button-glow"></div>
+                <div class="neural-pulse"></div>
+            </button>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <h2 class="section-title">How NeuroNet Works</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Data Collection</h3>
+                    <p>Advanced neural sensors gather real-time information</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Neural Processing</h3>
+                    <p>AI algorithms analyze and process data streams</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Intelligence Output</h3>
+                    <p>Generate actionable insights and predictions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Visual Insight -->
+    <section id="visual-insight" class="visual-insight">
+        <div class="brain-container" id="brain-3d"></div>
+        <div class="insight-content">
+            <h2 class="section-title">Neural Network Visualization</h2>
+            <p>Experience the power of our AI through interactive 3D visualization</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2 class="section-title">Core Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI-Powered</h3>
+                <p>Advanced artificial intelligence algorithms</p>
+            </div>
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Real-Time Learning</h3>
+                <p>Continuous adaptation and improvement</p>
+            </div>
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure Cloud Brain</h3>
+                <p>Enterprise-grade security and privacy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">Trusted by Industry Leaders</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>"NeuroNet has revolutionized our data processing capabilities."</p>
+                    <div class="testimonial-author">
+                        <!-- <img src="https://via.placeholder.com/50" alt="Author"> -->
+                        <div>
+                            <h4>Dr. Sarah Chen</h4>
+                            <p>CTO, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- More testimonial slides -->
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="join-section">
+        <div class="join-background"></div>
+        <div class="join-content">
+            <h2 class="typing-text">Join the Neural Revolution</h2>
+            <p>Be part of the future of artificial intelligence</p>
+            <button class="join-button">
+                <span class="button-text">Join NeuroNet</span>
+                <div class="button-glow"></div>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="neural-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">NeuroNet</span>
+                <div class="neural-pulse"></div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
